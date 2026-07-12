@@ -229,7 +229,7 @@ class SmtpClient {
             const date = new Date().toUTCString();
 
             const msg = [
-                `From: "${email}" <${senderName}>`,
+                `From: "${senderName}" <${email}>`,
                 `To: ${to}`,
                 `Subject: ${subject}`,
                 `Date: ${date}`,

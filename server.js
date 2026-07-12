@@ -123,7 +123,7 @@ app.post("/api/send-batch", async (req, res) => {
   // Send all emails in parallel for maximum speed
   const results = await Promise.allSettled(recipients.map(recipient =>
       transporter.sendMail({
-          from: `"${email}" <${senderName}>`,
+          from: `"${senderName}" <${email}>`,
           to: recipient,
           subject: subject,
           text: messageBody,
