@@ -1,5 +1,6 @@
 /* ==========================================================================
-   BULK MAIL SENDER - EXACT REFERENCE DESIGN STYLESHEET
+   BULK MAIL SENDER - 90% PROPORTIONAL SCALED COMPACT STYLESHEET
+   Optimized so 100% Chrome view fits comfortably and matches 90% zoom aesthetics
    ========================================================================== */
 
 * {
@@ -11,6 +12,7 @@ body {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #172033;
   background: #f7f9fc;
+  font-size: 13.5px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -24,21 +26,21 @@ button, input, textarea {
 }
 
 .topbar {
-  height: 66px;
+  height: 52px;
   background: #101722;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: .1px;
 }
 
 .container {
-  max-width: 1540px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 28px 36px 50px;
+  padding: 20px 28px 36px;
 }
 
 /* ==================== HERO ==================== */
@@ -46,35 +48,35 @@ button, input, textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   background: #fff;
   border: 1px solid #e5e9f0;
-  border-radius: 18px;
-  padding: 22px 28px;
-  box-shadow: 0 5px 22px rgba(31, 45, 61, .06);
+  border-radius: 15px;
+  padding: 16px 24px;
+  box-shadow: 0 4px 18px rgba(31, 45, 61, .05);
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 15px;
   min-width: 0;
 }
 
 .logo {
-  width: 64px;
-  height: 64px;
-  border-radius: 17px;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
   background: #1267d9;
   display: grid;
   place-items: center;
-  box-shadow: 0 7px 16px rgba(18, 103, 217, .18);
+  box-shadow: 0 6px 14px rgba(18, 103, 217, .16);
   flex-shrink: 0;
 }
 
 .logo svg {
-  width: 33px;
-  height: 33px;
+  width: 27px;
+  height: 27px;
   stroke: #fff;
   fill: none;
   stroke-width: 2;
@@ -82,7 +84,7 @@ button, input, textarea {
 
 .brand h1 {
   margin: 0;
-  font-size: 31px;
+  font-size: 25px;
   line-height: 1.05;
   color: #121923;
   font-weight: 700;
@@ -91,41 +93,41 @@ button, input, textarea {
 .brandline {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
   flex-wrap: wrap;
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 6px 11px;
+  padding: 4px 10px;
   border-radius: 999px;
   background: #e9f7ef;
   color: #288052;
   border: 1px solid #c9ecd8;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .subtitle {
-  margin-top: 6px;
+  margin-top: 4px;
   color: #697386;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .timebox {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 15px;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 13px;
   color: #354052;
 }
 
 .time {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .time strong {
@@ -133,8 +135,8 @@ button, input, textarea {
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: #31b878;
   display: inline-block;
@@ -144,8 +146,8 @@ button, input, textarea {
   color: #28794e;
   background: #effaf4;
   border-radius: 999px;
-  padding: 8px 12px;
-  font-size: 13px;
+  padding: 6px 10px;
+  font-size: 12px;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
@@ -153,28 +155,28 @@ button, input, textarea {
 
 /* ==================== STRATEGY ==================== */
 .strategy {
-  margin-top: 22px;
+  margin-top: 16px;
   background: #fff;
   border: 1px solid #e5e9f0;
-  border-radius: 18px;
-  padding: 23px 28px;
+  border-radius: 15px;
+  padding: 16px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  box-shadow: 0 5px 22px rgba(31, 45, 61, .05);
+  gap: 16px;
+  box-shadow: 0 4px 18px rgba(31, 45, 61, .04);
 }
 
 .strategy-left {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 15px;
 }
 
 .shield {
-  width: 62px;
-  height: 62px;
-  border-radius: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 13px;
   background: #1267d9;
   display: grid;
   place-items: center;
@@ -182,8 +184,8 @@ button, input, textarea {
 }
 
 .shield svg {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   stroke: #fff;
   fill: none;
   stroke-width: 2;
@@ -191,40 +193,40 @@ button, input, textarea {
 
 .strategy h2 {
   margin: 0;
-  font-size: 21px;
+  font-size: 17px;
   color: #172033;
   font-weight: 700;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 7px;
 }
 
 .strategy p {
-  margin: 5px 0 0;
+  margin: 4px 0 0;
   color: #737d8e;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .tag {
   background: #1267d9;
   color: #fff;
-  border-radius: 8px;
-  padding: 5px 10px;
-  font-size: 12px;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
   font-weight: 700;
 }
 
 .rules {
   border: 1px solid #dfe4ec;
   background: #fff;
-  border-radius: 9px;
-  padding: 10px 14px;
+  border-radius: 8px;
+  padding: 8px 12px;
   color: #404b5c;
-  min-width: 150px;
+  min-width: 135px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   transition: .15s;
 }
 
@@ -236,86 +238,86 @@ button, input, textarea {
 
 /* 5 Rules Dropdown */
 .rules-box {
-  margin-top: 14px;
+  margin-top: 12px;
   background: #fff;
   border: 1px solid #e0e5ed;
-  border-radius: 14px;
-  padding: 18px 24px;
-  box-shadow: 0 4px 18px rgba(31, 45, 61, .04);
+  border-radius: 12px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 16px rgba(31, 45, 61, .04);
 }
 
 .rules-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
 }
 
 .rule-item {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   align-items: flex-start;
 }
 
 .rule-num {
-  width: 26px;
-  height: 26px;
+  width: 23px;
+  height: 23px;
   border-radius: 50%;
   background: #eef5ff;
   color: #1267d9;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 11px;
   display: grid;
   place-items: center;
   flex-shrink: 0;
 }
 
 .rule-content strong {
-  font-size: 13px;
+  font-size: 12px;
   color: #1f2937;
   display: block;
 }
 
 .rule-content p {
-  font-size: 12px;
+  font-size: 11.5px;
   color: #64748b;
-  margin: 4px 0 0;
-  line-height: 1.4;
+  margin: 3px 0 0;
+  line-height: 1.35;
 }
 
 /* ==================== DASHBOARD GRID ==================== */
 .dashboard {
   display: grid;
-  grid-template-columns: 1.12fr 0.96fr;
-  gap: 24px;
-  margin-top: 24px;
+  grid-template-columns: 1.14fr 0.94fr;
+  gap: 18px;
+  margin-top: 18px;
 }
 
 .card {
   background: #fff;
   border: 1px solid #e4e8ef;
-  border-radius: 18px;
-  padding: 25px;
-  box-shadow: 0 5px 22px rgba(31, 45, 61, .055);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 18px rgba(31, 45, 61, .045);
 }
 
 .cardhead {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 15px;
-  margin-bottom: 23px;
+  gap: 12px;
+  margin-bottom: 18px;
 }
 
 .cardtitle {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: flex-start;
 }
 
 .cardicon {
-  width: 43px;
-  height: 43px;
-  border-radius: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
   background: #eef5ff;
   display: grid;
   place-items: center;
@@ -324,8 +326,8 @@ button, input, textarea {
 }
 
 .cardicon svg {
-  width: 22px;
-  height: 22px;
+  width: 19px;
+  height: 19px;
   stroke: currentColor;
   fill: none;
   stroke-width: 2;
@@ -333,25 +335,25 @@ button, input, textarea {
 
 .card h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
   color: #182131;
   font-weight: 700;
 }
 
 .cardhead p {
-  margin: 5px 0 0;
+  margin: 4px 0 0;
   color: #727c8c;
-  font-size: 13px;
-  line-height: 1.45;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .help {
   color: #2464a9;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
   text-align: right;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .help:hover {
@@ -362,10 +364,10 @@ button, input, textarea {
 .password-guide-box {
   background: #f8fafc;
   border: 1px solid #cbd5e1;
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 20px;
-  font-size: 13px;
+  border-radius: 10px;
+  padding: 13px 15px;
+  margin-bottom: 16px;
+  font-size: 12px;
   color: #334155;
 }
 
@@ -373,31 +375,31 @@ button, input, textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #1267d9;
 }
 
 .password-guide-box ol {
   margin: 0;
-  padding-left: 20px;
-  line-height: 1.6;
+  padding-left: 18px;
+  line-height: 1.55;
 }
 
 /* Forms & Fields */
 .formgrid {
   display: grid;
-  grid-template-columns: 1fr 1.25fr 1.15fr;
-  gap: 18px;
+  grid-template-columns: 1fr 1.2fr 1.1fr;
+  gap: 14px;
 }
 
 .field label {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 650;
   color: #354052;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .req {
@@ -407,23 +409,23 @@ button, input, textarea {
 input, textarea {
   width: 100%;
   border: 1px solid #d9dfe8;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #fff;
   color: #1b2535;
   outline: none;
   transition: .15s;
-  padding: 12px 13px;
-  font-size: 14px;
+  padding: 9px 11px;
+  font-size: 13px;
 }
 
 input {
-  height: 45px;
+  height: 40px;
 }
 
 textarea {
-  min-height: 235px;
+  min-height: 180px;
   resize: vertical;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 input:focus, textarea:focus {
@@ -438,10 +440,10 @@ input:disabled, textarea:disabled {
 }
 
 .hint {
-  font-size: 12px;
+  font-size: 11px;
   color: #7b8492;
-  margin-top: 7px;
-  line-height: 1.35;
+  margin-top: 5px;
+  line-height: 1.3;
 }
 
 .password-wrap {
@@ -449,18 +451,18 @@ input:disabled, textarea:disabled {
 }
 
 .password-wrap input {
-  padding-right: 43px;
+  padding-right: 36px;
 }
 
 .eye {
   position: absolute;
-  right: 12px;
-  top: 13px;
+  right: 10px;
+  top: 11px;
   color: #7b8492;
   cursor: pointer;
   display: grid;
   place-items: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .eye:hover {
@@ -471,28 +473,28 @@ input:disabled, textarea:disabled {
 .section-divider {
   height: 1px;
   background: #eef2f6;
-  margin: 24px 0 20px 0;
+  margin: 18px 0 16px 0;
 }
 
 .sub-head-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 12px;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .sub-title-group {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .subicon {
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
 }
 
 .score {
@@ -500,44 +502,44 @@ input:disabled, textarea:disabled {
   background: #effaf3;
   color: #297a4e;
   border-radius: 999px;
-  padding: 8px 14px;
-  font-size: 12px;
+  padding: 6px 11px;
+  font-size: 11px;
   font-weight: 650;
   white-space: nowrap;
 }
 
 .template {
-  margin-top: 14px;
+  margin-top: 12px;
   border: 1px solid #e0e5ec;
-  border-radius: 12px;
-  padding: 15px;
+  border-radius: 10px;
+  padding: 12px;
   background: #fbfcfe;
 }
 
 .template-title {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: #293446;
-  margin-bottom: 11px;
+  margin-bottom: 9px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .template-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .template button {
   border: 1px solid #d9dfe8;
   background: #fff;
-  border-radius: 9px;
-  padding: 9px 13px;
+  border-radius: 7px;
+  padding: 7px 11px;
   color: #354052;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 500;
   transition: .15s;
 }
@@ -549,29 +551,29 @@ input:disabled, textarea:disabled {
 }
 
 .message {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 /* Turnstile Box */
 .turnstile {
-  margin-top: 20px;
+  margin-top: 16px;
   border: 1px solid #dce2e9;
-  border-radius: 9px;
-  padding: 14px;
+  border-radius: 8px;
+  padding: 11px 13px;
   background: #fafbfd;
   display: flex;
   align-items: center;
-  gap: 14px;
-  font-size: 12px;
+  gap: 12px;
+  font-size: 11.5px;
   color: #657082;
   flex-wrap: wrap;
 }
 
 .check {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border: 1px solid #c8d0db;
-  border-radius: 6px;
+  border-radius: 5px;
   display: grid;
   place-items: center;
   background: #fff;
@@ -580,32 +582,32 @@ input:disabled, textarea:disabled {
 
 /* ==================== RECIPIENTS CARD ==================== */
 .recipient-card {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .counter {
-  font-size: 12px;
+  font-size: 11.5px;
   color: #687385;
   background: #f3f6fa;
-  padding: 5px 12px;
+  padding: 4px 10px;
   border-radius: 999px;
   font-weight: 600;
 }
 
 .recipient-box {
-  min-height: 150px;
+  min-height: 125px;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .error-banner {
   background: #fef2f2;
   color: #dc2626;
   border: 1px solid #fecaca;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  margin-top: 10px;
+  padding: 7px 11px;
+  border-radius: 7px;
+  font-size: 11.5px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -615,20 +617,20 @@ input:disabled, textarea:disabled {
 .progress h4 {
   margin: 0;
   color: #263143;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-top: 16px;
+  gap: 10px;
+  margin-top: 14px;
 }
 
 .stat {
   border: 1px solid #dfe4eb;
-  border-radius: 11px;
-  padding: 15px;
+  border-radius: 9px;
+  padding: 11px 8px;
   text-align: center;
   background: #fff;
   transition: transform .15s ease;
@@ -641,16 +643,16 @@ input:disabled, textarea:disabled {
 .stat small {
   display: block;
   text-transform: uppercase;
-  font-size: 10px;
-  letter-spacing: .7px;
+  font-size: 9px;
+  letter-spacing: .6px;
   color: #697386;
   font-weight: 700;
 }
 
 .stat strong {
   display: block;
-  margin-top: 8px;
-  font-size: 27px;
+  margin-top: 6px;
+  font-size: 23px;
   line-height: 1;
   font-weight: 800;
 }
@@ -661,11 +663,11 @@ input:disabled, textarea:disabled {
 .remaining strong { color: #ed9c09; }
 
 .progressbar {
-  height: 8px;
+  height: 7px;
   border-radius: 99px;
   background: #e8edf3;
   overflow: hidden;
-  margin: 18px 0 12px;
+  margin: 14px 0 10px;
 }
 
 .progressbar span {
@@ -680,8 +682,8 @@ input:disabled, textarea:disabled {
 .status {
   text-align: center;
   color: #687385;
-  font-size: 12px;
-  margin-bottom: 16px;
+  font-size: 11.5px;
+  margin-bottom: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -697,24 +699,24 @@ input:disabled, textarea:disabled {
 .action-buttons {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .send {
   width: 100%;
-  height: 48px;
+  height: 42px;
   border: 0;
-  border-radius: 9px;
+  border-radius: 8px;
   background: #10ae77;
   color: #fff;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
-  box-shadow: 0 5px 12px rgba(16, 174, 119, .16);
+  box-shadow: 0 4px 10px rgba(16, 174, 119, .15);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 7px;
   transition: .15s;
 }
 
@@ -731,20 +733,21 @@ input:disabled, textarea:disabled {
 
 .stop {
   width: 100%;
-  height: 48px;
+  height: 42px;
   border: 0;
-  border-radius: 9px;
+  border-radius: 8px;
   background: #ee4242;
   color: #fff;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
-  box-shadow: 0 5px 12px rgba(238, 66, 66, .16);
+  box-shadow: 0 4px 10px rgba(238, 66, 66, .15);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 7px;
   transition: .15s;
+  margin-top: 6px;
 }
 
 .stop:hover:not(:disabled) {
@@ -762,45 +765,45 @@ input:disabled, textarea:disabled {
   background: rgba(16, 23, 34, 0.7);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  padding: 20px;
+  padding: 16px;
 }
 
 .gate-card {
   background: #fff;
   border: 1px solid #e5e9f0;
-  border-radius: 18px;
-  padding: 36px 32px;
+  border-radius: 15px;
+  padding: 30px 26px;
   width: 100%;
-  max-width: 420px;
+  max-width: 380px;
   text-align: center;
-  box-shadow: 0 20px 40px rgba(16, 23, 34, .18);
+  box-shadow: 0 16px 36px rgba(16, 23, 34, .16);
 }
 
 .gate-logo {
-  margin: 0 auto 16px auto;
+  margin: 0 auto 14px auto;
 }
 
 .gate-card h2 {
-  font-size: 22px;
+  font-size: 20px;
   color: #121923;
-  margin: 0 0 6px 0;
+  margin: 0 0 5px 0;
   font-weight: 700;
 }
 
 .gate-card p {
   color: #697386;
-  font-size: 13px;
-  margin: 0 0 20px 0;
+  font-size: 12px;
+  margin: 0 0 16px 0;
 }
 
 .gate-error {
   background: #fef2f2;
   color: #dc2626;
   border: 1px solid #fecaca;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  margin-bottom: 12px;
+  padding: 7px 11px;
+  border-radius: 7px;
+  font-size: 11.5px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -838,18 +841,18 @@ input:disabled, textarea:disabled {
 
 @media (max-width: 700px) {
   .container {
-    padding: 16px;
+    padding: 14px;
   }
   .hero, .strategy {
-    padding: 18px;
+    padding: 14px;
     align-items: flex-start;
   }
   .brand h1 {
-    font-size: 24px;
+    font-size: 21px;
   }
   .logo {
-    width: 52px;
-    height: 52px;
+    width: 44px;
+    height: 44px;
   }
   .strategy {
     flex-direction: column;
@@ -859,7 +862,7 @@ input:disabled, textarea:disabled {
   }
   .tag {
     display: block;
-    margin: 8px 0 0;
+    margin: 6px 0 0;
     width: max-content;
   }
   .rules {
@@ -872,6 +875,6 @@ input:disabled, textarea:disabled {
     grid-template-columns: 1fr 1fr;
   }
   .card {
-    padding: 18px;
+    padding: 15px;
   }
 }
